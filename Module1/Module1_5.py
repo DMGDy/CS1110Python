@@ -1,0 +1,5 @@
+print("Assuming a car is travelling a consistant 60 mph, it will travel:")
+speed = int(60)
+print(str(speed*5) + " miles in 5 hours")
+print(str(speed*8) + " miles in 8 hours")
+print(str(speed*12) + " miles in 12 hours")

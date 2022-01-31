@@ -1,0 +1,976 @@
+\documentclass[10pt]{article}
+\usepackage{extsizes}
+\usepackage{geometry}
+\usepackage{amsmath}
+\usepackage{setspace}
+\usepackage{commath}
+\onehalfspacing
+\geometry{margin=0.5in}
+\author{Dylan Garza}
+\date
+\maketitle
+\begin{document}
+\begin{titlepage}
+\vspace*{\stretch{1.0}}
+   \begin{center}
+      \Large\textbf{CS final}\\
+      \large\textit{  }
+   \end{center}
+   \vspace*{\stretch{2}}
+\end{titlepage}
+\section{Quiz 1}
+\subsection*{question 1}
+\textbf{This symbol marks the beginning of a comment in Python}
+\begin{itemize}
+\item \# $\leftarrow$
+\item \&
+\item **
+\item *
+\end{itemize}
+
+\subsection*{question 2}
+\textbf{A \_\_\_ is a name that represents a value that does not change during a program's execution}
+\begin{itemize}
+\item variable signature
+\item named constant $\leftarrow$
+\item key term
+\item named literal
+\end{itemize}
+\subsection*{question 3}
+\textbf{Which of the following statemens will cause an error?}
+\begin{itemize}
+\item x = '17'
+\item 17 = x $\leftarrow$
+\item x = 17
+\item x = 9999
+\end{itemize}
+\subsection*{question 4}
+\textbf{This operator performs integer divison:}
+\begin{itemize}
+\item \%
+\item // $\leftarrow$
+\item *
+\item **
+\end{itemize}
+\subsection*{question 5}
+\textbf{which is NOT a legal identifier?}
+\begin{itemize}
+\item 7thheaven $\leftarrow$
+\item outrageouslyAndShockinglyLongRunon
+\item lovePotionNumber9
+\item \_42
+\end{itemize}
+\subsection*{question 6}
+\textbf{Of the following variable names, which is the best one for keeping track of whether a patient has a fever or not?}
+\begin{itemize}
+\item feverTest
+\item Temperature
+\item fever
+\item hasFever $\leftarrow$
+\end{itemize}
+\subsection*{question 7}
+\textbf{the character escape sequence to force the cursor to go to the next line is:}
+\begin{itemize}
+\item $\backslash$n $\leftarrow$
+\item $\backslash$t
+\item $\backslash$'
+\item $\backslash$"
+\end{itemize}
+\subsection*{question 8}
+\textbf{which of the following is used to take the input in float?}
+\begin{itemize}
+\item float(input()) $\leftarrow$
+\item float(float())
+\item string(input())
+\item int(input())
+\end{itemize}
+\subsection*{question 9}
+\textbf{The following code multiplies 10 times the quantity 5 + 3, yielding the result 80: 10 * 5 + 3}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 10}
+\textbf{the value of the expression '7' + '3' is the:}
+\begin{itemize}
+\item integer 73
+\item integer 10
+\item string '10'
+\item string '73' $\leftarrow$
+\end{itemize}
+\subsection*{question 11}
+\textbf{what does the int function attempt to do in the following code?}
+\begin{verbatim}
+value = input('Enter an integer: ')
+value = int(value)
+\end{verbatim}
+\begin{itemize}
+\item Convert a non-object to an object
+\item Convert an integer to a string
+\item convert a string to an integer $\leftarrow$
+\item None of the above
+\end{itemize}
+\subsection*{quesion 12}
+\textbf{which of the following is false?}
+\begin{itemize}
+\item \begin{verbatim}
+if number1 == number2:
+   print(number1, 'is equal to', number2)
+\end{verbatim}
+\item each if statement consists of the keyword if, the condition to test, and a (:) followed by an intended body
+\item forgetting the colon (:) after the condition is a common syntax error
+\item each body of if statement contains zero or more statements $\leftarrow$
+\end{itemize}
+\subsection*{question 13}
+\textbf{Information in the main memory unit is \_. Its typically lost when the computers power is turned off}
+\begin{itemize}
+\item constant
+\item sticky
+\item volatile $\leftarrow$
+\item persistaent
+\end{itemize}
+\subsection*{question 14}
+\textbf{A(n) \_ is the smallest data item in a computer. It can have the value 0 or 1}
+\begin{itemize}
+\item byte
+\item field
+\item bit $\leftarrow$
+\item record
+\end{itemize}
+\subsection*{What value is produed when Python evaluates the following expression}
+\begin{verbatim}
+5 * (12.7 - 4) / 2
+\end{verbatim}
+\begin{itemize}
+\item 29.5
+\item 21.75 $\leftarrow$
+\item 21
+\item None of the above
+\end{itemize}
+\break
+\section*{Quiz 2}
+\subsection*{question 1}
+\textbf{A(n) \_ is the process of inspecting data that has been input to a program to make sure it is valid before it is used in computation}
+\begin{itemize}
+\item Correcting data
+\item correcting input
+\item data checking
+\item Input validation $\leftarrow$
+\end{itemize}
+\subsection*{question 2}
+\textbf{in Python, an infinite loop occurs when the computer accesses the wrong memory address}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 3}
+\textbf{Which of teh following represents an example to calculate the sum of the numbers (accumulator)?}
+\begin{itemize}
+\item total + number = total
+\item number +=number 
+\item total = number
+\item total += number $\leftarrow$
+\end{itemize}
+\subsection*{question 4}
+\textbf{What is the format for the while clause in Python?}
+\begin{itemize}
+\item while condition
+\item while condition: statement
+\item while condition: $\leftarrow$
+\item while condition statement
+\end{itemize}
+\subsection*{question 5}
+\textbf{what is not an example of an augmented assignment operator?}
+\begin{itemize}
+\item <= $\leftarrow$
+\item /=
+\item *=
+\item -=
+\end{itemize}
+\subsection*{question 6}
+\textbf{IN python the variable in the for lause is reffered to as the \_ because it is the target of an assignment at the beginning of each loop iteration}
+\begin{itemize}
+\item for variable
+\item count variable
+\item loop variable
+\item target variable $\leftarrow$
+\end{itemize}
+\subsection*{question 7}
+\textbf{When will the following loop terminate?}
+\begin{verbatim}
+while leep_on_going != 999:
+\end{verbatim}
+\begin{itemize}
+\item when keep\_on\_going refers to value less than 999
+\item when keep\_on\_going refers to a value not equal to 999
+\item when keep\_on\_going refers to a value greater than 999
+\item when keep\_on\_going refers to a value equal to 999 $\leftarrow$
+\end{itemize}
+\subsection*{question 8}
+\textbf{What are the values that the variable num contains through the iterations of the following for loop?}
+\begin{verbatim}
+for num in range(4)
+\end{verbatim}
+\begin{itemize}
+\item 1,2,3,4 
+\item 0,1,2,3 $\leftarrow$
+\item 0,1,2,3,4
+\item 1,2,3
+\end{itemize}
+\subsection*{question 9}
+\textbf{In flowcharting, the decision structure and the repition structure both use the diamond symbol to represent the condition that is tested}
+\begin{itemize}
+\item True $\leftarrow$
+\item False 
+\end{itemize}
+\subsection*{question 12}
+\textbf{What are the values that the varibale contains through the iterations of the following for loop?}
+\begin{verbatim}
+for num in range(2,9,2)
+\end{verbatim}
+\begin{itemize}
+\item 2,3,4,5,6,7,8,9
+\item 1,3,5,7,9
+\item 2,5,8
+\item 2,4,6,8 $\leftarrow$
+\end{itemize}
+\subsection*{question 10}
+\textbf{Both of the following for clauses would generate the same number of loop iterations}
+\begin{verbatim}
+for num in range(4):
+for num in range(1,5)
+\end{verbatim}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 11}
+\textbf{What type of loop stricture repeats the code based on the value of the Boolean expression}
+\begin{itemize}
+\item Boolean-controlled loop
+\item count-controlled loop
+\item number-controlled loop
+\item  condition-controlled loop $\leftarrow$
+\end{itemize}
+\subsection*{question 13}
+\textbf{When using the \_ logical operatorm one or both of the subexpressions must be true for the compound expression to be true}
+\begin{itemize}
+\item or $\leftarrow$
+\item not
+\item maybe 
+\item and
+\end{itemize}
+\subsection*{question 14}
+\textbf{Which of the folliowing is the correct if clause to determine whether y is in range 10 through 50, inclusive}
+\begin{itemize}
+\item if $>=$ 10 ad $y<=$50; $\leftarrow$
+\item if 10 $>$ y and y $<$50;
+\item if y$>=$10 or y$<=$ 50;
+\item if 10 $<$ y or y $>$ 50;
+\end{itemize}
+\subsection*{question 15}
+\textbf{A(n) \_ is any piece of data that is passed into a function when the function is called}
+\begin{itemize}
+\item local varuable 
+\item argument $\leftarrow$
+\item global variable
+\item parameter
+\end{itemize}
+\subsection*{question 16}
+\textbf{What will display after the folliowing code is executed?}
+\begin{verbatim}
+def main():
+   magic(5)
+def magic(num):
+   answer = num + 2 * 10
+   print(answer)
+main():
+\end{verbatim}
+\begin{itemize}
+\item 100
+\item 25 $\leftarrow$
+\item Nothing
+\item 70
+\end{itemize}
+\break
+\section*{Exam 1}
+\subsection*{question 1}
+\textbf{Functions can be called from statemtnts in the body of a loop and loops can be calledfrom within the body of a function}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 2}
+\textbf{What is the result of the following Boolean expression given that x=5,y=3, and z=8?}
+\begin{verbatim}
+x < y or z > x
+\end{verbatim}
+\begin{itemize}
+\item 8
+\item False
+\item True $\leftarrow$
+\item 5
+\end{itemize}
+\subsection*{question 4}
+\textbf{Which of the following is the correct if clause to determine whether y is in range 10 through 50 inclusive}
+\begin{itemize}
+\item if 10 $<$ y or y $>$ 50
+\item if y $>=$ 10 and y$<=$50 $\leftarrow$
+\item if 10 $>$ y and y $<$ 50
+\item if y$>=$10 or y$<=$50
+\end{itemize}
+\subsection*{question 3}
+\textbf{see quiz 2 question 9}
+\subsection*{question 5}
+\textbf{Reducing duplication of code is one of the advantages of using loop structure}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 6}
+\textbf{After the execution of the following statement, the variable price will reverence the value \_}
+\begin{verbatim}
+price = int(68,549)
+\end{verbatim}
+\begin{itemize}
+\item 68 $\leftarrow$
+\item 68.6
+\item 68.55
+\item 69
+\end{itemize}
+\subsection*{question 7}
+\textbf{see quiz 2 question 12}
+\subsection*{question 8}
+\textbf{different functions can have local variables with the same names}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 9}
+\textbf{The main reason to use secondary storage is to hold date for long periods of time even when the power supply to the computer is turned off}
+\begin{itemize}
+\item True $\leftarrow$
+\item False 
+\end{itemize}
+\subsection*{question 10}
+\textbf{The python language is not sensitive to block sturcturing of code.}
+\begin{itemize}
+\item True
+\item False $\leftarrow$     
+\end{itemize}
+\subsection*{question 11}
+\textbf{the not operator is a unary operator which must be used in a compound expression}
+\begin{itemize}
+\item True
+\item False $\leftarrow$     
+\end{itemize}
+\subsection*{question 12}
+\textbf{Whihc of the following is the correct if clause to determine wheter choice is anything other than 10?}
+\begin{itemize}
+\item if choice != 10
+\item if choice <> 10
+\item if not(choice < 10 and choice > 10):
+\item if choice != 10: $\leftarrow$
+\end{itemize}
+\subsection*{question 13}
+\textbf{the first line in a while loop is reffered to as the condition clause}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 14}
+\textbf{A function defginition specifies what a function does and causes the function to execute}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 15}
+\textbf{Both of the following for clauses would generate the same number of loop iterations.}
+\begin{verbatim}
+for num in range(4):
+for num in range(1,5):
+\end{verbatim}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 16}
+\textbf{see quiz 2 question 5}
+\subsection*{question 17}
+\textbf{What does the following statement mean?}
+\begin{verbatim}
+num1, num2 = get_num()
+\end{verbatim}
+\begin{itemize}
+\item the function get\_num()  will recieve the values stored in num1 and num2
+\item the function get\_num() is expected to return one value and assign it ot num1 and num2
+\item the statement will cause a syntax error
+\item the function get\_num() is expected to return value for num1 and for num2 $\leftarrow$
+\end{itemize}
+\subsection*{question 18}
+\textbf{what does the following program do?}
+\begin{verbatim}
+student = 1
+while student <=3:
+   total = 0
+   for score in range(1,4):
+      score = int(input("enter test score:"))
+      total += score
+   average = total/3
+   print("Student",student,"average:",average)
+   student += 1
+\end{verbatim}
+\begin{itemize}
+\item It accepts 3 test scores for each of 3 students and outputs the average for each student $\leftarrow$
+\item It accepts one test score for each of 3 students and outputs teh average of the 12 scores
+\item it accepts 4 test scores for 3 students and outputs the average of the 12 scores
+\item it accepts 4 test scores 2 students, then averages and outputs all the scores
+\end{itemize}
+\subsection*{question 19}
+\textbf{\_ is the process of inspecting data that has been input into a program in order to ensure that the data is valid before it is used in a computation}
+\begin{itemize}
+\item Data validation
+\item Correcting input
+\item Correcting data
+\item input validtion $\leftarrow$
+\end{itemize}
+\subsection*{question 20}
+\textbf{THe python language uses a compiler which is a program that both translates and executes the instruction in a high-level language}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 21}
+\textbf{Which tpye of error preventsthe program from running?}
+\begin{itemize}
+\item logical 
+\item grammatical
+\item human
+\item syntax $\leftarrow$
+\end{itemize}
+\subsection*{question 22}
+\textbf{according to the behavior of integer division is divided by an integer, the result will be a float}
+\begin{itemize}
+\item True 
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 23}
+\textbf{In python, print statements written on sperate lines do not necessarily ouput on seperate lines}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 24}
+\textbf{since a named constant is just a variable, it can change any time during a program's execution}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 25}
+\textbf{what is the informal language used by programmers use to create models of programs that has no syntax rules and is not meant to be compiled or executed?}
+\begin{itemize}
+\item source code 
+\item flowchart
+\item pseudocode $\leftarrow$
+\item algorithm
+\end{itemize}
+\subsection*{question 27}
+\textbf{which of the following will display 20\%?}
+\begin{itemize}
+\item \begin{verbatim} print(format(0.2,'%')) <enter> \end{verbatim}
+\item \begin{verbatim} print(format(20,'.0%')) <enter> \end{verbatim}
+\item \begin{verbatim} print(format(0.2 * 100, ':0%')) <enter> \end{verbatim}
+\item $\rightarrow$\begin{verbatim} print(format(0.2, ':0%')) <enter> \end{verbatim} 
+\end{itemize}
+\subsection*{question 26}
+\textbf{after the execution of the following statement thevariable sold will reference the numeric literal value as (n) \_ data type}
+\begin{verbatim}
+sold = 256.752
+\end{verbatim}
+\begin{itemize}
+\item currency
+\item int
+\item float $\leftarrow$
+\item str
+\end{itemize}
+\subsection*{question 28}
+\textbf{the if statement causes one or more statemnts to execute only when a Boolean expression is true}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 29}
+\textbf{Python allows you to compare strings, but it is not case sensitive}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 30}
+\textbf{A(n) \_ strucure is a logical design that controls the order in which a set of statements execute}
+\begin{itemize}
+\item function
+\item iteration
+\item sequence
+\item control $\leftarrow$
+\end{itemize}
+\subsection*{question 31}
+\textbf{When using the \_\_ logical operator both submissions must be true for the compound expression to be true}
+\begin{itemize}
+\item and $\leftarrow$ 
+\item either or and
+\item not 
+\item or
+\end{itemize}
+\subsection*{question 32}
+\textbf{See quiz 2 question 2}
+\subsection*{question 33}
+\textbf{When will the following loop terminate?}
+\begin{verbatim}
+while keep_on_going != 999:
+\end{verbatim}
+\begin{itemize}
+\item when it refers to a value equal to 999 $\leftarrow$   
+\item when it refers to a value not equal 999
+\item when it refers to a value greater than 999
+\item when it refers to a value less than 999 
+\end{itemize}
+\subsection*{question 34}
+\textbf{A hierarchy chart shows all the steps that are taken inside a function}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 35}
+\textbf{It is recommended  that programmera avoid \_ varuables in a program whenever possible}
+\begin{itemize}
+\item string
+\item local
+\item global $\leftarrow$
+\item keyword
+\end{itemize}
+\subsection*{question 36}
+\textbf{Which of the following will assign a random integer in the range of 1 through 50 to variable a number?}
+\begin{itemize}
+\item number = random.rantin(1,50) $\leftarrow$
+\item number = random(range(1,50)) 
+\item random(1,50) = number
+\item randint(1,50) = number
+\end{itemize}
+\subsection*{question 37}
+\textbf{what will the output after the following code is executed}
+\begin{verbatim}
+def pass_it(x,y):
+   z = x,",",y
+num1 = 4
+num2 = 8
+answer = pass_it(num1,num2)
+print(answer)
+\end{verbatim}
+\begin{itemize}
+\item 4,8
+\item None $\leftarrow$
+\item 8,4
+\item 48
+\end{itemize}
+\subsection*{question 38}
+\textbf{A software developer is the person with teh training to design, create, and test computer programs}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 39}
+\textbf{Which of the following returns the largest integer that is less than or equal to its argument}
+\begin{itemize}
+\item greater
+\item lesser
+\item ceil
+\item floor $\leftarrow$
+\end{itemize}
+\subsection*{question 41}
+\textbf{The process known as the \_ cycle is used by the CPU to execute instructions in a program}
+\begin{itemize}
+\item decode-fetch-execute 
+\item fetch-decode-execute
+\item decode-execute-fetch
+\item fetch-execute-decode
+\end{itemize}
+\subsection*{question 40}
+\textbf{In a nested loop, the inner loop goes through all of its iterations foe each for each iterations of the outer loop}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 42}
+\textbf{In Python, math expressions are always evaluated left ot right no matter what the operators are}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 43}
+\textbf{the \_\_\_  function reads a piece of data that has been entered at the keybpoard and returns that piece of data as a string back to the program}
+\begin{itemize}
+\item eval\_input()
+\item str\_input()
+\item input() $\leftarrow$
+\item output()
+\end{itemize}
+\subsection*{question 44}
+\textbf{the randrange function returns a randomly selected value from a specific sequence of numbers}
+\begin{itemize}
+\item True $\leftarrow$ 
+\item False
+\end{itemize}
+\subsection*{question 45}
+\textbf{Python formats all floating-point numbers to two decimal places when outputting with the print statement}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{questions 46}
+\textbf{short-circuit evaluation is only performed withthe not operator}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{questions 47}
+\textbf{what is the result of the following Boolean expression, given that}
+\begin{verbatim}
+x = 5, y = 3, z = 8
+not (x < y or z > x) and y < z
+\end{verbatim}
+\begin{itemize}
+\item 8 
+\item True
+\item 5
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 48}
+\textbf{python uses the same symbols for the assignment operator as for the equality operator}
+\begin{itemize}
+\item True
+\item false $\leftarrow$
+\end{itemize}
+\subsection*{question 49}
+\textbf{what type of loop structure repeats the code a specific number of times?}
+\begin{itemize}
+\item Boolean-controlled loop
+\item count-controlled loop $\leftarrow$
+\item number-controlled loop
+\item condition-controlled loop
+\end{itemize}
+\subsection*{question 50}
+\textbf{Python function names follow the same rules as those for those for naming variables}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 51}
+\textbf{you are working on a program that consists of one globa variable and multiple functions. any function in the program can access teh global variable}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 52}
+\textbf{if a sentinel value is not distinct the chosen value may appear as a value in the programs normla execution. this will result in early and undesired termination of the program}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 53}
+\textbf{A Boolean expression is an expression that produces either int or float numbers}
+\begin{itemize}
+\item True
+\item false $\leftarrow$
+\end{itemize}
+\subsection*{question 54}
+\textbf{ifa a math expression adds a float to an int, the data type of the result will be int}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{Question 55}
+\textbf{True, False, and None are keywards in Python}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\break
+\section*{Quiz 3}
+\subsection*{question 1}
+\textbf{When Working with a sequential access file, you can jump directly to any piece of data in the file without reading the data that comes before it}
+\begin{itemize}
+\item True
+\item False $\leftarrow$ 
+\end{itemize}
+\subsection*{question 2}
+\textbf{When you open a file that file already exists on teh disk using the "w" mode, the contents of the existing file will be erased}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 3}
+\textbf{When a file that already exists is opened in append mode, the file's existing contents are erased}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 4}
+\textbf{If you do not handle an exception, it is ignored by the Python interpretor and the program continues to execute}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 5}
+\textbf{You can have more than one except clause in a try/except statement}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 6}
+\textbf{The finally suite in a try/except statement executes only if no exceptions are raised by statements in the try suite}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 7}
+\textbf{When a program is finished using a file, it should do this}
+\begin{itemize}
+\item encrypt the file
+\item erase the file
+\item open the file
+\item close the file $\leftarrow$
+\end{itemize}
+\subsection*{question 8}
+\textbf{The following code will display 'yes' + 'no'}
+\begin{verbatim}
+mystr = 'yes'
+yourstr = 'no'
+mystr += yourstr
+print(mystr)
+\end{verbatim}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 9}
+\textbf{What will be assigned to the variable s\_string after the following code executes?}
+\begin{verbatim}
+special = '1357 Country Ln.'
+s_string = special[:4]
+\end{verbatim}
+\begin{itemize}
+\item '1357' $\leftarrow$
+\item '7'
+\item 5
+\item '7 Country Ln.'
+\end{itemize}
+\subsection{question 10}
+\textbf{Indexing of a string starts at 1 so the index of the first character is 1, the index of the second character is 2 and so forth}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 11}
+\textbf{What will be the value of the variable string after the following code executes?}\begin{verbatim}
+string = 'abcd'
+string.upper()
+\end{verbatim}
+\begin{itemize}
+\item 'Abcd'
+\item Nothing: this code is invalid
+\item 'ABCD' $\leftarrow$
+\item 'abcd'
+\end{itemize}
+\subsection*{question 12}
+\textbf{The index -1 indentifies the last element in a list}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{quesion 13}
+\textbf{Which list will be referemced by the variable number after the following code is executed}
+\begin{verbatim}
+number = range(0,9,2)
+\end{verbatim}
+\begin{itemize}
+\item $[$0,1,2,3,4,5,6,7,8,9$]$
+\item $[$1,3,5,6,9$]$
+\item $[$2,3,6,8$]$
+\item $[$0,2,4,6,8$]$ $\leftarrow$
+\end{itemize}
+\subsection*{quesion 14}
+\textbf{What will be the value of the variable list after the following code executes?}
+\begin{verbatim}
+list = [1,2,3,4]
+list[3] = 10
+\end{verbatim}
+\begin{itemize}
+\item Nothing: this code is invalid
+\item $[$1,2,3,10$]$ $\leftarrow$
+\item $[$1,2,10,4$]$
+\item $[$1,10,10,10$]$
+\end{itemize}
+\subsection*{question 15}
+\textbf{List are mutable, which mean their elements can be changed in a program}
+\begin{itemize}
+\item True$\leftarrow$
+\item False
+\end{itemize}
+\break
+\section*{Quiz 5}
+\subsection*{question 1}
+\textbf{OOP allows us to hide object data atributes from code that is outside the object}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 2}
+\textbf{The instances of a class share data attributes in the class}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 3}
+\textbf{The self parameter need not be named self, but it is strongly reccomended to conform with standard practice}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 4}
+\textbf{what type of programming contains class definitions?}
+\begin{itemize}
+\item Procedural
+\item Object
+\item Object-oriented $\leftarrow$
+\item Modular
+\end{itemize}
+\subsection*{question 5}
+\textbf{what are the procedures that an object performs called?}
+\begin{itemize}
+\item Methods $\leftarrow$
+\item Actions
+\item Instances
+\item Modules
+\end{itemize}
+\subsection*{question 6}
+\textbf{What is the combining of data and code in a single object known as?}
+\begin{itemize}
+\item{Objectification}
+\item Encapsulation $\leftarrow$
+\end{itemize}
+\subsection*{question 7}
+\textbf{A(n) is a component of a class that references data}
+\begin{itemize}
+\item data attribute $\leftarrow$
+\end{itemize}
+\subsection*{question 8}
+\textbf{by doing this you can hide a class's attribute from code outside the class.}
+\begin{itemize}
+\item begin the name of the attribute with private\_\_
+\item begin the name of the attribute with the @ symbol
+\item begin the attribute's name with two underscores $\leftarrow$
+\item avoid using the self parameter to create attributes
+\end{itemize}
+\subsection*{question 9}
+\textbf{what is the special name given to the method that returns a string containing the object's state?}
+\begin{itemize}
+   \item \_\_state\_\_      
+\item \_\_obj\_\_
+\item \_\_str\_\_ $\leftarrow$
+\item \_\_init\_\_
+\end{itemize}
+\subsection*{question 10}
+\textbf{which method is automatically executed when an instance of the class is created in memory}
+\begin{itemize}
+\item \_\_init\_\_ $\leftarrow$
+\end{itemize}
+\subsection*{question 11 }
+\textbf{The differnece of set1 and set2 is a set that contrains only the elements that appear in set1 but do not appear in set2}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 12}
+\textbf{The elements in a dictionary are stored in ascening order,by the keys of the key-valye pairs}
+\begin{itemize}
+\item True
+\item False $\leftarrow$
+\end{itemize}
+\subsection*{question 13}
+\textbf{the issubset() methid can be used to determine whether set1 is a subset of set2}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 14}
+\textbf{A dictionary can include the same value several times but cannot include the same key several times}
+\begin{itemize}
+\item True $\leftarrow$
+\item False
+\end{itemize}
+\subsection*{question 15}
+\textbf{what is the correct structure to create a dictionary of months where each month will be accessed by its month number, for example January is month 1 April is month 4?}
+\begin{itemize}
+\item 1: 'January'; 2: 'February' $\leftarrow$
+\end{itemize}
+\subsection*{question 16}
+\textbf{What will be the result of the following code?}
+\begin{verbatim}
+ages = {'Aaron':6;'Kelly':3;'Abigail':1}
+value = ages['Briana']
+\end{verbatim}
+\begin{itemize}
+\item KeyError $\leftarrow$
+\end{itemize}
+\subsection*{question 17}
+\textbf{What will be displayed after the code executes}
+\begin{verbatim}
+cities = ['GA':'Atlanta';'NY':'Albant';'CA':'San Diego']
+if 'CA' in cities:
+   del cities['CA']
+   cities['CA'] = 'Sacramento'
+print(cities)
+\end{verbatim}
+\begin{itemize}
+\item \begin{verbatim}
+{'CA':'Sacramento';'NY':'Albany';'GA':'Atlanta'}
+   \end{verbatim} $\leftarrow$
+\end{itemize}
+\subsection*{question 18}
+\textbf{What does the following print?}
+\begin{verbatim}
+D = {'a':2;'x':7;'d':5}
+for k,v in D.items():
+   print(k,v, end =',')
+\end{verbatim}
+\begin{itemize}
+\item a 2,x 7,d 5,
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+\end{document}

@@ -1,0 +1,6 @@
+R = float(input("Length of row in feet? "))
+E = float(input("Amount of space used by end-post assembly in feet? "))
+S = float(input("Length of space between vines in feet? "))
+V = R - (2 * E * S)
+V_f = "{:.2f}".format(V)
+print("The number of grapevines that will fit the row is " + str(V_f))

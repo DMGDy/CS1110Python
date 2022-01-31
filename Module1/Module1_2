@@ -1,0 +1,3 @@
+sales = float(input("sales? "))
+str1 = "Profit = "
+print(str1 + sales*0.23)

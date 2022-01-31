@@ -1,0 +1,13 @@
+Name: 10
+Date: 1
+museum:el museo
+airport:el aeropuerto
+university:la universidad
+house:la casa
+school:el colegio,la escuela
+park:el parque
+restaurant:el restaurante
+movie theater:el cine
+library:la biblioteca
+office:la oficina, el despacho
+Score: 10 out of 10 correct
